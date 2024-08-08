@@ -1,6 +1,5 @@
 
 
-```markdown
 # Chatter Box
 
 Chatter Box is a real-time chat application built using the MERN stack. It allows users to chat with each other in real-time, featuring JWT authentication, password hashing with BCryptjs, media storage, and a responsive UI.
@@ -82,5 +81,4 @@ In the `client` directory, create a `.env` file with the following content:
 ```plaintext
 REACT_APP_CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 REACT_APP_BACKEND_URL=your_backend_url (e.g., http://localhost:8080)
-```
 ```
