@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chatterbox-backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: chatterbox
+  template:
+    metadata:
+      labels:
+        app: chatterbox
+    spec:
+      containers:
+        - name: backend
+          image: chatter-box:latest
+          ports:
+            - containerPort: 3000
