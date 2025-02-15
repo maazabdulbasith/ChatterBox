@@ -1,28 +1,44 @@
-const express = require('express')
-const registerUser = require('../controller/registerUser')
-const checkEmail = require('../controller/checkEmail')
-const checkPassword = require('../controller/checkPassword')
-const userDetails = require('../controller/userDetails')
-const logout = require('../controller/logout')
-const updateUserDetails = require('../controller/updateUserDetails')
-const searchUser = require('../controller/searchUser')
+const express = require('express');
+const registerUser = require('../controller/registerUser');
+const checkEmail = require('../controller/checkEmail');
+const checkPassword = require('../controller/checkPassword');
+const userDetails = require('../controller/userDetails');
+const logout = require('../controller/logout');
+const updateUserDetails = require('../controller/updateUserDetails');
+const searchUser = require('../controller/searchUser');
+const logger = require('../utils/logger'); // Import logger
 
-const router = express.Router()
+const router = express.Router();
 
-//create user api
-router.post('/register',registerUser)
-//check user email
-router.post('/email',checkEmail)
-//check user password
-router.post('/password',checkPassword)
-//login user details
-router.get('/user-details',userDetails)
-//logout user
-router.get('/logout',logout)
-//update user details
-router.post('/update-user',updateUserDetails)
-//search user
-router.post("/search-user",searchUser)
+// Middleware to add user-specific logging
+const logUserAction = (req, res, next) => {
+    const userId = req.user ? req.user._id : 'guest'; // Assuming `req.user` is set after authentication
+    req.logger = (message, level = 'info') => {
+        // Log userID with the message using Winston
+        logger.log(level, `[UserID: ${userId}] ${message}`);
+    };
+    next();
+};
 
+// Create user API
+router.post('/register', logUserAction, registerUser);
 
-module.exports = router
+// Check user email
+router.post('/email', logUserAction, checkEmail);
+
+// Check user password
+router.post('/password', logUserAction, checkPassword);
+
+// Login user details
+router.get('/user-details', logUserAction, userDetails);
+
+// Logout user
+router.get('/logout', logUserAction, logout);
+
+// Update user details
+router.post('/update-user', logUserAction, updateUserDetails);
+
+// Search user
+router.post('/search-user', logUserAction, searchUser);
+
+module.exports = router;

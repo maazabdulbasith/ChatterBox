@@ -1,0 +1,11 @@
+{"level":"info","message":"Server running at 8080","timestamp":"2025-01-28T18:48:23.674Z"}
+{"level":"info","message":"[UserID: guest] Password check initiated for user with ID: 669657f1472a64b01aaa6b7c","timestamp":"2025-01-28T18:51:32.170Z"}
+{"level":"info","message":"[UserID: guest] Login successful for user with ID: 669657f1472a64b01aaa6b7c","timestamp":"2025-01-28T18:51:32.746Z"}
+{"level":"info","message":"User connected","socketId":"o8Tb8S9n-RA2vbROAAAE","timestamp":"2025-01-28T18:51:33.242Z"}
+{"currentUserId":"669657f1472a64b01aaa6b7c","level":"info","message":"Fetching sidebar for current user","timestamp":"2025-01-28T18:51:33.303Z"}
+{"level":"info","message":"Fetching message-page for user","timestamp":"2025-01-28T18:52:11.521Z","userId":"66b49a4a78ca75508c90c5b4"}
+{"level":"info","message":"Marking messages as seen","msgByUserId":"66b49a4a78ca75508c90c5b4","timestamp":"2025-01-28T18:52:11.526Z"}
+{"level":"info","message":"Fetching message-page for user","timestamp":"2025-01-28T18:52:11.528Z","userId":"66b49a4a78ca75508c90c5b4"}
+{"level":"info","message":"Marking messages as seen","msgByUserId":"66b49a4a78ca75508c90c5b4","timestamp":"2025-01-28T18:52:11.530Z"}
+{"level":"info","message":"New message received","receiver":"66b49a4a78ca75508c90c5b4","sender":"669657f1472a64b01aaa6b7c","timestamp":"2025-01-28T18:52:15.701Z"}
+{"level":"info","message":"User disconnected","socketId":"o8Tb8S9n-RA2vbROAAAE","timestamp":"2025-01-28T19:28:09.051Z"}
