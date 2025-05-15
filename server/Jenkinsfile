@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/adnanshariff9/chatter-box.git'
+                git 'https://github.com/maazabdulbasith/Chatterbox.git'
             }
         }
         

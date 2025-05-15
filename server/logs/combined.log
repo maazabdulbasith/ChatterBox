@@ -9,3 +9,22 @@
 {"level":"info","message":"Marking messages as seen","msgByUserId":"66b49a4a78ca75508c90c5b4","timestamp":"2025-01-28T18:52:11.530Z"}
 {"level":"info","message":"New message received","receiver":"66b49a4a78ca75508c90c5b4","sender":"669657f1472a64b01aaa6b7c","timestamp":"2025-01-28T18:52:15.701Z"}
 {"level":"info","message":"User disconnected","socketId":"o8Tb8S9n-RA2vbROAAAE","timestamp":"2025-01-28T19:28:09.051Z"}
+{"level":"info","message":"Server running at 8080","timestamp":"2025-05-15T17:56:30.453Z"}
+{"level":"info","message":"User connected","socketId":"TkefowTPXe8UQBFCAAAB","timestamp":"2025-05-15T17:56:30.724Z"}
+{"currentUserId":"682623c94e9adaaa3062be49","level":"info","message":"Fetching sidebar for current user","timestamp":"2025-05-15T17:56:30.846Z"}
+{"level":"info","message":"Fetching message-page for user","timestamp":"2025-05-15T17:56:30.856Z","userId":"68261a204e9adaaa3062be3d"}
+{"level":"info","message":"Marking messages as seen","msgByUserId":"68261a204e9adaaa3062be3d","timestamp":"2025-05-15T17:56:30.859Z"}
+{"level":"info","message":"User connected","socketId":"PtLz4FIA71ozYKCmAAAD","timestamp":"2025-05-15T17:56:34.823Z"}
+{"currentUserId":"682623c94e9adaaa3062be49","level":"info","message":"Fetching sidebar for current user","timestamp":"2025-05-15T17:56:34.874Z"}
+{"level":"info","message":"Fetching message-page for user","timestamp":"2025-05-15T17:56:34.880Z","userId":"68261a204e9adaaa3062be3d"}
+{"level":"info","message":"Marking messages as seen","msgByUserId":"68261a204e9adaaa3062be3d","timestamp":"2025-05-15T17:56:34.881Z"}
+{"currentUserId":"68261a204e9adaaa3062be3d","level":"info","message":"Fetching sidebar for current user","timestamp":"2025-05-15T17:56:34.897Z"}
+{"level":"info","message":"Fetching message-page for user","timestamp":"2025-05-15T17:56:34.903Z","userId":"682623c94e9adaaa3062be49"}
+{"level":"info","message":"Marking messages as seen","msgByUserId":"682623c94e9adaaa3062be49","timestamp":"2025-05-15T17:56:34.904Z"}
+{"level":"info","message":"User disconnected","socketId":"TkefowTPXe8UQBFCAAAB","timestamp":"2025-05-15T17:57:12.096Z"}
+{"level":"info","message":"User disconnected","socketId":"PtLz4FIA71ozYKCmAAAD","timestamp":"2025-05-15T17:57:13.200Z"}
+{"level":"info","message":"User connected","socketId":"ZUgzOS0sPu0mSS84AAAG","timestamp":"2025-05-15T17:58:15.196Z"}
+{"currentUserId":"68261a204e9adaaa3062be3d","level":"info","message":"Fetching sidebar for current user","timestamp":"2025-05-15T17:58:15.251Z"}
+{"level":"info","message":"User disconnected","socketId":"ZUgzOS0sPu0mSS84AAAG","timestamp":"2025-05-15T18:14:50.490Z"}
+{"level":"info","message":"Server running at 8080","timestamp":"2025-05-15T18:43:59.522Z"}
+{"level":"info","message":"User connected","socketId":"U19qy5TUXkEoIvOPAAAC","timestamp":"2025-05-15T18:45:02.392Z"}
