@@ -43,7 +43,7 @@ Ensure you have the following installed:
 First, clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/adnanshariff9/Chatter-Box.git
+git clone https://github.com/maazabdulbasith/ChatterBox.git
 cd Chatter-Box
 ```
 
